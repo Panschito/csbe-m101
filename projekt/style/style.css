@@ -1,0 +1,397 @@
+
+/*Start Seite Desktop*/
+
+.Welcome{
+    /*Titel*/
+    color: #C5D7E8;
+    font-family: 'Poppins', sans-serif;
+
+}
+.logo{
+    display: flex;
+    height: 10em;
+    width: 10em;
+    
+    
+}
+a{
+    color:#1C1A16;
+}
+h1{
+    color: #1C1A16;
+    font-family: 'Poppins', sans-serif;
+}
+.p{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+    background-color:#C5D7E8;
+    margin: 15px;
+    
+    
+
+
+}
+
+.li1 {
+    list-style: none;
+    background-color:#07559E;
+    padding: 25px;
+    margin: 0px;
+    width: 10%;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    
+    
+    
+    
+
+
+}
+.li1:hover{
+    background-color: #8EC6FA;
+}
+.borderyt {
+    
+    display: flex;
+    width: auto;
+    height: 50rem;
+    justify-content: center;
+    border: none;
+    
+    
+}
+.ytclip {
+    display: flex;
+    width: 50rem;
+    height: 100rem;
+    border: none;
+
+    
+
+    
+}
+.footerborder {
+    background-color: #C5D7E8;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.footertxt {
+    background-color: #C5D7E8;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.welcombox {
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin:auto;
+    
+}
+.welcome {
+    background-color: #C5D7E8;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+   
+   
+    
+    
+}
+#Burger {
+    display: none;
+    
+}
+.body {
+    background-color:#C5D7E8;
+}
+/*About Us*/
+.gruppenfoto{
+    display: flex;
+    justify-content: center;
+}
+.gphoto{
+    width: 1000px;
+}
+/*Partner*/
+.welcompartner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+.partnertext{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.partnerlist{
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    
+    
+}
+.partnerbox{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    margin: 1rem;
+    
+
+}
+.pbtext{
+    border-style: solid;
+    border-color: #07559E;
+    margin: auto;
+    border-radius: 1rem;
+    border-width: 1rem;
+    background: #07559E;
+    font-family: 'Poppins', sans-serif;
+}
+.pbtext:hover{
+    border-style: solid;
+    border-color: #C5D7E8;
+    margin: auto;
+    border-radius: 1rem;
+    border-width: 1rem;
+    background: #C5D7E8;
+
+}
+footer{
+    display: flex;
+    margin: auto;
+    align-items: flex-end;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 3rem;
+}
+/*impressum*/
+.impressum{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15rem;
+    margin-bottom: 20rem;
+}
+.kontaktbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+.karte{
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-family: 'Poppins', sans-serif;}
+
+@media (max-width :576px){
+    
+    
+    /*Start Seite Mobile*/
+    #Burger{
+        display: flex;
+        
+        justify-content: right;
+    }
+    .burger{
+        display: flex;
+        justify-content: right;
+    }
+    .navbar{
+        position: fixed;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: none;
+        justify-content: right;
+        padding: 0;
+        height: 0;
+        overflow:hidden;
+        
+    }
+    .li1{
+        display: flex;
+        width: 100%;
+    }
+    .navbar-open{
+        height: auto;
+        overflow: unset;
+        height: 200px;
+        width: 200px;
+        
+
+    }
+    .li1{
+        display: flex;
+        
+        background: #07559E;
+        width: 100%;
+        text-align: center;
+        border:#07559E;
+        border-style: groove;
+        
+
+    }
+    
+    .mobilelogonav{
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        padding-right: 2rem;
+        
+        
+        
+
+    }
+    .mlogo{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+  
+   
+    .logo {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        
+    }
+    .header{
+        display: flex;
+        margin: auto;
+
+    }
+    .welcombox{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+
+    }
+    .welcome{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+
+    }
+    .footerborder {
+        background-color: #C5D7E8;
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        
+    
+    }
+    .footertxt {
+        background-color: #C5D7E8;
+        text-align: center;
+        margin: auto;
+    }
+    /*Abot us Mobile*/
+
+    .gruppenfoto{
+        max-width: 10%;
+    }
+    .gphoto {
+        
+        max-width: 360px;
+        padding: 0em 0em 0em 19em;
+
+    }
+    /*Partner*/
+    .welcompartner{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .welcombox{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+
+    }
+    .partnertext{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+    .partnerlist{
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .partner {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        margin: auto;
+        width: auto;
+        justify-content: center;
+      
+    }
+    .partnerbox{
+        padding: 10;
+        border-radius: 15%;
+       
+
+        
+        justify-content: center;
+        
+    }
+    .footerborder {
+        background-color:#C5D7E8;
+        display: flex;
+        margin-top: 45px;
+        
+    
+    }
+    .footertxt {
+        background-color: #C5D7E8;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+    
+    /*Kontakt Formular*/
+    .kontaktbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        
+        
+       
+    }
+    
+
+
+
+
+
+}
