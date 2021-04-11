@@ -57,10 +57,11 @@ h1{
 .borderyt {
     
     display: flex;
-    width: auto;
-    height: 50rem;
+    
+    padding-top: 4rem;
     justify-content: center;
     border: none;
+    
     
     
 }
@@ -74,6 +75,9 @@ h1{
 
     
 }
+iframe { border: none; }
+
+
 .footerborder {
     background-color: #C5D7E8;
     display: flex;
@@ -153,11 +157,9 @@ h1{
 
 }
 .pbtext{
-    border-style: solid;
-    border-color: #07559E;
+    padding: 1rem;
     margin: auto;
     border-radius: 1rem;
-    border-width: 1rem;
     background: #07559E;
     font-family: 'Poppins', sans-serif;
 }
@@ -184,6 +186,7 @@ footer{
     text-align: center;
     margin-top: 15rem;
     margin-bottom: 20rem;
+    font-family: 'Poppins', sans-serif;
 }
 .kontaktbox{
     display: flex;
@@ -204,12 +207,18 @@ label{
     /*Start Seite Mobile*/
     #Burger{
         display: flex;
+        position: fixed;
+        width: 100%;
+        justify-content: flex-end;
+        right: 1rem;
         
-        justify-content: right;
     }
+        
+    
     .burger{
         display: flex;
         justify-content: right;
+        
     }
     .navbar{
         position: fixed;
@@ -220,19 +229,24 @@ label{
         background: none;
         justify-content: right;
         padding: 0;
+        margin: 0;
         height: 0;
         overflow:hidden;
+        
         
     }
     .li1{
         display: flex;
         width: 100%;
+        align-content: center;
+        text-align: center;
+        align-items: center;
     }
     .navbar-open{
         height: auto;
         overflow: unset;
-        height: 200px;
-        width: 200px;
+        margin-top: 20px;
+        width: 100%;
         
 
     }
@@ -356,7 +370,7 @@ label{
       
     }
     .partnerbox{
-        padding: 10;
+        padding: 10px;
         border-radius: 15%;
        
 
